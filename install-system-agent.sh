@@ -2,10 +2,10 @@
 
 # --- CONFIG ---
 LINUX_BINARY_NAME="system-agent-linux"
-WINDOWS_BINARY_NAME="system-agent-windows.exe"
+WINDOWS_BINARY_NAME="system-agent-win.exe"
 
-LINUX_DOWNLOAD_URL="https://raw.githubusercontent.com/bharat-creole/script-executable-repo/main/system-agent-linux"
-WINDOWS_DOWNLOAD_URL="https://raw.githubusercontent.com/bharat-creole/script-executable-repo/main/system-agent-windows.exe"
+LINUX_DOWNLOAD_URL="https://raw.githubusercontent.com/bharat-creole/script-executable-repo/main/Executable/${LINUX_BINARY_NAME}"
+WINDOWS_DOWNLOAD_URL="https://raw.githubusercontent.com/bharat-creole/script-executable-repo/main/Executable/${WINDOWS_BINARY_NAME}"
 
 LINUX_AGENT_PATH="/usr/local/bin/${LINUX_BINARY_NAME}"
 WINDOWS_AGENT_PATH="/c/Program Files/SystemAgent/${WINDOWS_BINARY_NAME}" # For Git Bash or WSL. Windows cmd would be different.
